@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>Nishat Tasnim CV</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -11,39 +11,44 @@
             font-family: 'Inter', sans-serif;
             background-color: #f0f2f5;
         }
+
         .cv-container {
             width: 210mm;
             min-height: 297mm;
             margin: 0 auto;
             background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             display: flex;
             position: relative;
         }
+
         .left-column {
             width: 45%;
             background-color: #c4e1eb;
             padding: 25px;
             position: relative;
         }
+
         .right-column {
             width: 55%;
             background-color: #ffffff;
             padding: 25px 30px;
             position: relative;
         }
+
         .about-me-box {
             background-color: #d1fae5;
             border-radius: 15px;
             padding: 30px;
             margin: 20px 0;
             top: -10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             width: calc(100% + 130%);
             position: relative;
             left: 10px;
             z-index: 2;
         }
+
         .circular-progress {
             position: relative;
             width: 80px;
@@ -53,8 +58,9 @@
             align-items: center;
             justify-content: center;
             background: white;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
         .circular-progress .inner {
             width: 65px;
             height: 65px;
@@ -67,33 +73,40 @@
             font-weight: 600;
             color: #333;
         }
+
         .circular-progress svg {
             position: absolute;
             top: 0;
             left: 0;
             transform: rotate(-90deg);
         }
+
         .circular-progress circle {
             fill: none;
             stroke-width: 5;
             stroke-linecap: round;
         }
+
         .circular-progress .bg-circle {
             stroke: #e2e8f0;
         }
+
         .circular-progress .progress-circle {
             stroke: #86efac;
         }
+
         .skill-bar {
             background-color: #e2e8f0;
             height: 8px;
             border-radius: 9999px;
         }
+
         .skill-progress {
             background-color: #86efac;
             height: 100%;
             border-radius: 9999px;
         }
+
         .profile-img-wrapper {
             position: absolute;
             top: 30px;
@@ -102,52 +115,64 @@
             height: 190px;
             border-radius: 50%;
             border: 4px solid white;
-            box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
             z-index: 10;
         }
+
         .professional-experience-section {
-            margin-top: 220px; 
+            margin-top: 220px;
         }
+
         .education-item {
             margin-bottom: 16px;
         }
+
         .education-period {
             font-weight: 600;
             color: #374151;
         }
+
         .education-degree {
             font-weight: 600;
         }
+
         .education-institution {
             font-style: italic;
         }
+
         @media print {
             body {
                 background: none;
                 padding: 0;
             }
+
             .cv-container {
                 box-shadow: none;
                 width: 210mm;
                 height: 297mm;
             }
         }
+
         @media (max-width: 768px) {
             .cv-container {
                 flex-direction: column;
                 width: 100%;
                 min-height: auto;
             }
-            .left-column, .right-column {
+
+            .left-column,
+            .right-column {
                 width: 100%;
                 padding: 20px;
             }
+
             .profile-img-wrapper {
                 position: relative;
                 top: 0;
                 left: 0;
                 margin: 0 auto 20px;
             }
+
             .about-me-box {
                 margin-top: 20px;
                 width: 100%;
@@ -156,271 +181,304 @@
         }
     </style>
 </head>
+
 <body class="flex items-center justify-center p-4 print:p-0">
     <div class="cv-container">
         <!-- Left Column -->
         <div class="left-column">
+            <!--Personal Information-->
             <h1 class="text-4xl font-bold mb-2 mt-9">NISHAT TASNIM</h1>
             <p class="text-xl font-semibold text-gray-700 mb-6">Undergraduate<br>Software Engineering Student</p>
-            
-            <div class="about-me-box">
-             <h3 class="inline-block text-lg font-bold text-white mb-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 shadow-md">
-    About Me
-</h3>
 
-  <p class="[font-size:16px] leading-relaxed text-gray-800">
-                    A motivated third-year Software Engineering student with practical experience in Flutter, modern web technologies, Object-Oriented Programming, and SDL. Passionate about designing and building innovative, user-focused digital solutions that deliver seamless and engaging experiences.
+            <div class="about-me-box">
+                <h3
+                    class="inline-block text-lg font-bold text-white mb-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 shadow-md">
+                    About Me
+                </h3>
+
+                <p class="[font-size:16px] leading-relaxed text-gray-800">
+                    A motivated third-year Software Engineering student with practical experience in Flutter, modern web
+                    technologies, Object-Oriented Programming, and SDL. Passionate about designing and building
+                    innovative, user-focused digital solutions that deliver seamless and engaging experiences.
                 </p>
             </div>
-            
-          
-            
- <div class="mb-8">
-   <h3 class="inline-block text-lg font-bold text-white mb-6 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
-    Education
-</h3>
-
-
-    
-    <!-- University -->
-    <div class="mb-3 pb-3 border-b border-gray-100 last:border-0">
-        <div class="flex justify-between items-start mb-1">
-            <h4 class="text-lg font-semibold text-gray-900">B.Sc. in Software Engineering</h4>
-            <span class="text-base font-medium text-gray-500 bg-gray-50 px-2 py-1 rounded-full whitespace-nowrap"> 2023 – Present
-</span>
-        </div>
-        <p class="text-base text-gray-700 mb-1">Shahjalal University of Science and Technology (SUST), Sylhet</p>
-    </div>
-    
-    <!-- HSC -->
-    <div class="mb-3 pb-3 border-b border-gray-100 last:border-0">
-        <div class="flex justify-between items-start mb-1">
-            <h4 class="text-lg font-semibold text-gray-900">Higher Secondary Certificate (HSC)</h4>
-           <span class="text-base font-medium text-gray-500 bg-gray-50 px-2 py-1 rounded-full whitespace-nowrap">
-  2019 – 2021
-</span>
-        </div>
-        <p class="text-base text-gray-700 mb-1">Govt. Zia Mohila College, Feni</p>
-        <p class="text-sm font-medium text-gray-900">GPA: 5.00</p>
-    </div>
-</div>
-
-         <div class="mb-8">
-    <h3 class="inline-block text-xl font-bold text-white mb-4 pb-2 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
-    Skills
-</h3>
-
-    <div class="space-y-4">
-        <div class="flex items-center">
-            <span class="text-base font-medium text-gray-700 w-32">Flutter</span>
-            <div class="flex-grow ml-4">
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 85%;"></div>
+            <!-- Education Section -->
+            <div class="mb-8">
+                <h3 class="inline-block text-lg font-bold text-white mb-6 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
+                    Education
+                </h3>
+                <div class="mb-3 pb-3 border-b border-gray-100 last:border-0">
+                    <div class="flex justify-between items-start mb-1">
+                        <h4 class="text-lg font-semibold text-gray-900">B.Sc. in Software Engineering</h4>
+                        <span
+                            class="text-base font-medium text-gray-500 bg-gray-50 px-2 py-1 rounded-full whitespace-nowrap">
+                            2023 – Present
+                        </span>
+                    </div>
+                    <p class="text-base text-gray-700 mb-1">Shahjalal University of Science and Technology (SUST),
+                        Sylhet</p>
+                </div>
+                <div class="mb-3 pb-3 border-b border-gray-100 last:border-0">
+                    <div class="flex justify-between items-start mb-1">
+                        <h4 class="text-lg font-semibold text-gray-900">Higher Secondary Certificate (HSC)</h4>
+                        <span
+                            class="text-base font-medium text-gray-500 bg-gray-50 px-2 py-1 rounded-full whitespace-nowrap">
+                            2019 – 2021
+                        </span>
+                    </div>
+                    <p class="text-base text-gray-700 mb-1">Govt. Zia Mohila College, Feni</p>
+                    <p class="text-sm font-medium text-gray-900">GPA: 5.00</p>
                 </div>
             </div>
-            <span class="text-base font-semibold text-gray-800 ml-4">85%</span>
-        </div>
-        <div class="flex items-center">
-            <span class="text-base font-medium text-gray-700 w-32">Web Technologies</span>
-            <div class="flex-grow ml-4">
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 80%;"></div>
-                </div>
-            </div>
-            <span class="text-base font-semibold text-gray-800 ml-4">80%</span>
-        </div>
-        <div class="flex items-center">
-            <span class="text-base font-medium text-gray-700 w-32">Object-Oriented Programming</span>
-            <div class="flex-grow ml-4">
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 88%;"></div>
-                </div>
-            </div>
-            <span class="text-base font-semibold text-gray-800 ml-4">88%</span>
-        </div>
-        <div class="flex items-center">
-            <span class="text-base font-medium text-gray-700 w-32">SDL (Simple DirectMedia Layer)</span>
-            <div class="flex-grow ml-4">
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 70%;"></div>
-                </div>
-            </div>
-            <span class="text-base font-semibold text-gray-800 ml-4">70%</span>
-        </div>
-        <div class="flex items-center">
-            <span class="text-base font-medium text-gray-700 w-32">Version Control (Git)</span>
-            <div class="flex-grow ml-4">
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 75%;"></div>
-                </div>
-            </div>
-            <span class="text-base font-semibold text-gray-800 ml-4">75%</span>
-        </div>
-    </div>
-</div>
+<!--Skill Section-->
+            <div class="mb-8">
+                <h3
+                    class="inline-block text-xl font-bold text-white mb-4 pb-2 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
+                    Skills
+                </h3>
 
-         <div class="mb-8">
-    <h3 class="inline-block text-lg font-bold text-white mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
-    Language
-</h3>
-    <div class="flex justify-around space-x-2">
-        <div class="flex flex-col items-center">
-            <p class="text-sm text-gray-700 mb-1">Bangla</p>
-            <div class="circular-progress" style="width: 60px; height: 60px;">
-                <svg class="w-full h-full" viewBox="0 0 36 36">
-                    <circle class="bg-circle" cx="18" cy="18" r="16"></circle>
-                    <circle class="progress-circle" cx="18" cy="18" r="16" stroke-dasharray="100" stroke-dashoffset="100" style="stroke-dashoffset: calc(100 - 99);"></circle>
-                </svg>
-                <span class="inner" style="font-size: 0.75rem;">99%</span>
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <span class="text-base font-medium text-gray-700 w-32">Flutter</span>
+                        <div class="flex-grow ml-4">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <span class="text-base font-semibold text-gray-800 ml-4">85%</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-base font-medium text-gray-700 w-32">Web Technologies</span>
+                        <div class="flex-grow ml-4">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <span class="text-base font-semibold text-gray-800 ml-4">80%</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-base font-medium text-gray-700 w-32">Object-Oriented Programming</span>
+                        <div class="flex-grow ml-4">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                        <span class="text-base font-semibold text-gray-800 ml-4">88%</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-base font-medium text-gray-700 w-32">SDL (Simple DirectMedia Layer)</span>
+                        <div class="flex-grow ml-4">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <span class="text-base font-semibold text-gray-800 ml-4">70%</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-base font-medium text-gray-700 w-32">Version Control (Git)</span>
+                        <div class="flex-grow ml-4">
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <span class="text-base font-semibold text-gray-800 ml-4">75%</span>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="flex flex-col items-center">
-            <p class="text-sm text-gray-700 mb-1">English</p>
-            <div class="circular-progress" style="width: 60px; height: 60px;">
-                <svg class="w-full h-full" viewBox="0 0 36 36">
-                    <circle class="bg-circle" cx="18" cy="18" r="16"></circle>
-                    <circle class="progress-circle" cx="18" cy="18" r="16" stroke-dasharray="100" stroke-dashoffset="100" style="stroke-dashoffset: calc(100 - 92);"></circle>
-                </svg>
-                <span class="inner" style="font-size: 0.75rem;">92%</span>
+            <!-- Language Section -->
+            <div class="mb-8">
+                <h3
+                    class="inline-block text-lg font-bold text-white mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
+                    Language
+                </h3>
+                <div class="flex justify-around space-x-2">
+                    <div class="flex flex-col items-center">
+                        <p class="text-sm text-gray-700 mb-1">Bangla</p>
+                        <div class="circular-progress" style="width: 60px; height: 60px;">
+                            <svg class="w-full h-full" viewBox="0 0 36 36">
+                                <circle class="bg-circle" cx="18" cy="18" r="16"></circle>
+                                <circle class="progress-circle" cx="18" cy="18" r="16" stroke-dasharray="100"
+                                    stroke-dashoffset="100" style="stroke-dashoffset: calc(100 - 99);"></circle>
+                            </svg>
+                            <span class="inner" style="font-size: 0.75rem;">99%</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <p class="text-sm text-gray-700 mb-1">English</p>
+                        <div class="circular-progress" style="width: 60px; height: 60px;">
+                            <svg class="w-full h-full" viewBox="0 0 36 36">
+                                <circle class="bg-circle" cx="18" cy="18" r="16"></circle>
+                                <circle class="progress-circle" cx="18" cy="18" r="16" stroke-dasharray="100"
+                                    stroke-dashoffset="100" style="stroke-dashoffset: calc(100 - 92);"></circle>
+                            </svg>
+                            <span class="inner" style="font-size: 0.75rem;">92%</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <p class="text-sm text-gray-700 mb-1">Hindi</p>
+                        <div class="circular-progress" style="width: 60px; height: 60px;">
+                            <svg class="w-full h-full" viewBox="0 0 36 36">
+                                <circle class="bg-circle" cx="18" cy="18" r="16"></circle>
+                                <circle class="progress-circle" cx="18" cy="18" r="16" stroke-dasharray="100"
+                                    stroke-dashoffset="100" style="stroke-dashoffset: calc(100 - 60);"></circle>
+                            </svg>
+                            <span class="inner" style="font-size: 0.75rem;">60%</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="flex flex-col items-center">
-            <p class="text-sm text-gray-700 mb-1">Hindi</p>
-            <div class="circular-progress" style="width: 60px; height: 60px;">
-                <svg class="w-full h-full" viewBox="0 0 36 36">
-                    <circle class="bg-circle" cx="18" cy="18" r="16"></circle>
-                    <circle class="progress-circle" cx="18" cy="18" r="16" stroke-dasharray="100" stroke-dashoffset="100" style="stroke-dashoffset: calc(100 - 60);"></circle>
-                </svg>
-                <span class="inner" style="font-size: 0.75rem;">60%</span>
-            </div>
-        </div>
-    </div>
-</div>
-
-   <h3 class="inline-block text-lg font-bold text-white mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
-    Contact
-</h3>
+            <!-- Contact Section -->
+            <h3
+                class="inline-block text-lg font-bold text-white mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
+                Contact
+            </h3>
             <div class="space-y-4 text-gray-700 text-base">
                 <div class="flex items-center">
-                    <svg class="w-5 h-5 mr-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    <svg class="w-5 h-5 mr-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                        </path>
+                    </svg>
                     <span>01619517814</span>
                 </div>
                 <div class="flex items-center">
-    <svg class="w-5 h-5 mr-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-    </svg>
-    <a href="mailto:nishattasnim5670@gmail.com" class="text-base hover:text-blue-600 transition-colors">nishattasnim5670@gmail.com</a>
-</div>
-<div class="flex items-center">
-    <svg class="w-5 h-5 mr-3 text-gray-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
-    </svg>
-    <a href="https://github.com/nishatnishu" target="_blank" class="text-base hover:text-blue-600 transition-colors">github.com/nishatnishu</a>
-</div>
-<div class="flex items-center">
-    <svg class="w-5 h-5 mr-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-    </svg>
-    <span class="text-base">Sylhet, Bangladesh</span>
-</div>
+                    <svg class="w-5 h-5 mr-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                        </path>
+                    </svg>
+                    <a href="mailto:nishattasnim5670@gmail.com"
+                        class="text-base hover:text-blue-600 transition-colors">nishattasnim5670@gmail.com</a>
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-3 text-gray-600" fill="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z">
+                        </path>
+                    </svg>
+                    <a href="https://github.com/nishatnishu" target="_blank"
+                        class="text-base hover:text-blue-600 transition-colors">github.com/nishatnishu</a>
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                        </path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                    <span class="text-base">Sylhet, Bangladesh</span>
+                </div>
 
-               
+
             </div>
         </div>
-        
-      <!-- Right Column -->
-<div class="right-column">
-    <div class="profile-img-wrapper">
-        <img src="images/profile.jpeg"Profile" class="w-full h-full object-cover rounded-full">
-    </div>
-    
-    <div class="mt-[320px] pt-20">  
-       <h3 class="inline-block text-xl font-bold text-white mb-4 pb-2 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
-    Technical Skills
-</h3>
 
-  <div class="flex flex-wrap gap-3 mb-4">
-    <!-- Languages -->
-    <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium">C</span>
-    <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium">C++</span>
-    <span class="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-sm font-medium">Java</span>
-    <span class="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium">Python</span>
-    <span class="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-sm font-medium">HTML/CSS</span>
-    <span class="px-3 py-1 bg-sky-50 text-sky-700 rounded-full text-sm font-medium">Dart</span>
-    <span class="px-3 py-1 bg-rose-50 text-rose-700 rounded-full text-sm font-medium">OOP</span>
-    <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">SDL</span>
-  </div>
-  <p class="text-base text-gray-600 ">
-    Versatile in both low- and high-level languages, with a strong focus on <strong>OOP principles</strong>. 
-    Passionate about exploring new frameworks and tools to solve real-world problems.
-  </p>
-</div>
-<div class="mb-8 pt-28">
-<h3 class="inline-block text-xl font-bold text-white mb-4 pb-2 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
-    Projects
-</h3>
+        <!-- Right Column -->
+            <!--Profile Image-->
+        <div class="right-column">
+            <div class="profile-img-wrapper">
+                <img src="images/profilee.jpg" Profile" class="w-full h-full object-cover rounded-full">
+            </div>
+<!--Techincal Knowledge-->
+            <div class="mt-[320px] pt-20">
+                <h3
+                    class="inline-block text-xl font-bold text-white mb-4 pb-2 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
+                    Technical Skills
+                </h3>
 
-  <!-- Snake Game -->
-  <div class="mb-6 group hover:bg-gray-50 p-4 rounded-lg transition-all border border-gray-100">
-    <div class="flex justify-between items-start mb-2">
-     <h4 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 tracking-wide leading-snug drop-shadow-sm">
-  Snake Game (C++ & SDL)
-</h4>
-     <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">Game Development</span>
-    </div>
-    <p class="text-sm text-gray-700 mb-3">
-      A nostalgic arcade-style Snake game featuring <strong>real-time input handling</strong>, 
-      dynamic score tracking, and pixel-perfect rendering using SDL graphics.
-    </p>
-    
-    
-    <div class="flex flex-wrap gap-2">
-      <span class="text-xs bg-blue-50 text-blue-700 px-2 py-1 rounded">C++</span>
-      <span class="text-xs bg-green-50 text-green-700 px-2 py-1 rounded">SDL2</span>
-         </div>
-  </div>
-  
-  <!-- Survivor Game -->
-  <div class="mb-6 group hover:bg-gray-50 p-4 rounded-lg transition-all border border-gray-100">
-    <div class="flex justify-between items-start mb-2">
-      <h4 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 tracking-wide leading-snug drop-shadow-sm">
-  Survivor Game (Java)
-</h4>
+                <div class="flex flex-wrap gap-3 mb-4">
+                    <!-- Languages -->
+                    <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium">C</span>
+                    <span class="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-sm font-medium">C++</span>
+                    <span class="px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-sm font-medium">Java</span>
+                    <span
+                        class="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium">Python</span>
+                    <span class="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-sm font-medium">HTML/CSS</span>
+                    <span class="px-3 py-1 bg-sky-50 text-sky-700 rounded-full text-sm font-medium">Dart</span>
+                    <span class="px-3 py-1 bg-rose-50 text-rose-700 rounded-full text-sm font-medium">OOP</span>
+                    <span class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">SDL</span>
+                </div>
+                <p class="text-base text-gray-600 ">
+                    Versatile in both low- and high-level languages, with a strong focus on <strong>OOP
+                        principles</strong>.
+                    Passionate about exploring new frameworks and tools to solve real-world problems.
+                </p>
+            </div>
+     <!-- Project Section -->
+            <div class="mb-8 pt-28">
+                <h3
+                    class="inline-block text-xl font-bold text-white mb-4 pb-2 px-4 py-2 rounded-full bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 shadow-md">
+                    Projects
+                </h3>
 
-      <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">Game Development</span>
-    </div>
-    <p class="text-sm text-gray-700 mb-3">
-      A text-based adventure game demonstrating <strong>Java OOP mastery</strong>, 
-      with modular design, event-driven gameplay, and interactive storytelling.
-    </p>
-    <div class="flex flex-wrap gap-2">
-      <span class="text-xs bg-purple-50 text-purple-700 px-2 py-1 rounded">Java</span>
-      <span class="text-xs bg-rose-50 text-rose-700 px-2 py-1 rounded">OOP</span>
-     
-    </div>
-  </div>
-  
-  <!-- TrekMate -->
-  <div class="group hover:bg-gray-50 p-4 rounded-lg transition-all border border-gray-100">
-    <div class="flex justify-between items-start mb-2">
-     <h4 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 tracking-wide leading-snug drop-shadow-sm">
-  TrekMate (Flutter)
-</h4>
+                <!-- Snake Game -->
+                <div class="mb-6 group hover:bg-gray-50 p-4 rounded-lg transition-all border border-gray-100">
+                    <div class="flex justify-between items-start mb-2">
+                        <h4
+                            class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 tracking-wide leading-snug drop-shadow-sm">
+                            Snake Game (C++ & SDL)
+                        </h4>
+                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">Game Development</span>
+                    </div>
+                    <p class="text-sm text-gray-700 mb-3">
+                        A nostalgic arcade-style Snake game featuring <strong>real-time input handling</strong>,
+                        dynamic score tracking, and pixel-perfect rendering using SDL graphics.
+                    </p>
 
-      <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">Mobile App</span>
-    </div>
-    <p class="text-sm text-gray-700 mb-3">
-      A feature-rich travel companion app with <strong>personalized recommendations</strong>, 
-      real-time reviews, and seamless theme toggling. Integrates REST APIs for dynamic content.
-    </p>
-    <div class="flex flex-wrap gap-2">
-      <span class="text-xs bg-sky-50 text-sky-700 px-2 py-1 rounded">Flutter</span>
-      <span class="text-xs bg-indigo-50 text-indigo-700 px-2 py-1 rounded">Firebase</span>
-      <span class="text-xs bg-green-50 text-green-700 px-2 py-1 rounded">Maps API</span>
-    </div>
-  </div>
-</div>
-</div>
+
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-blue-50 text-blue-700 px-2 py-1 rounded">C++</span>
+                        <span class="text-xs bg-green-50 text-green-700 px-2 py-1 rounded">SDL2</span>
+                    </div>
+                </div>
+
+                <!-- Survivor Game -->
+                <div class="mb-6 group hover:bg-gray-50 p-4 rounded-lg transition-all border border-gray-100">
+                    <div class="flex justify-between items-start mb-2">
+                        <h4
+                            class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 tracking-wide leading-snug drop-shadow-sm">
+                            Survivor Game (Java)
+                        </h4>
+
+                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">Game Development</span>
+                    </div>
+                    <p class="text-sm text-gray-700 mb-3">
+                        A text-based adventure game demonstrating <strong>Java OOP mastery</strong>,
+                        with modular design, event-driven gameplay, and interactive storytelling.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-purple-50 text-purple-700 px-2 py-1 rounded">Java</span>
+                        <span class="text-xs bg-rose-50 text-rose-700 px-2 py-1 rounded">OOP</span>
+
+                    </div>
+                </div>
+
+                <!-- TrekMate -->
+                <div class="group hover:bg-gray-50 p-4 rounded-lg transition-all border border-gray-100">
+                    <div class="flex justify-between items-start mb-2">
+                        <h4
+                            class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 tracking-wide leading-snug drop-shadow-sm">
+                            TrekMate (Flutter)
+                        </h4>
+
+                        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">Mobile App</span>
+                    </div>
+                    <p class="text-sm text-gray-700 mb-3">
+                        A feature-rich travel companion app with <strong>personalized recommendations</strong>,
+                        real-time reviews, and seamless theme toggling. Integrates REST APIs for dynamic content.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-sky-50 text-sky-700 px-2 py-1 rounded">Flutter</span>
+                        <span class="text-xs bg-indigo-50 text-indigo-700 px-2 py-1 rounded">Firebase</span>
+                        <span class="text-xs bg-green-50 text-green-700 px-2 py-1 rounded">Maps API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
