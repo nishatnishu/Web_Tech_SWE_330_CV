@@ -3,7 +3,7 @@
 This repository contains the source code for my online CV/Portfolio, built with HTML, CSS (TailwindCSS), and a touch of custom styling.
 It is fully responsive and printable, designed to showcase my education, skills, projects, and contact details in a modern and elegant layout.
 
-🔗 Live CV: [View Here](https://nishattasnim2021831026cv.netlify.app/)
+🔗 My CV: [View Here](https://nishattasnim2021831026cv.netlify.app/)
 
 📌 Features
 
